@@ -51,17 +51,21 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="884-Dk-gcH">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="884-Dk-gcH" userLabel="A">
                                 <rect key="frame" x="20" y="369" width="30" height="30"/>
                                 <state key="normal" image="A"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TY4-VG-TkJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TY4-VG-TkJ" userLabel="B">
                                 <rect key="frame" x="20" y="425" width="30" height="30"/>
                                 <state key="normal" image="B"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssV-xn-XMk">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssV-xn-XMk" userLabel="C">
                                 <rect key="frame" x="20" y="481" width="30" height="30"/>
                                 <state key="normal" image="C"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-e0-arz" userLabel="Next button">
+                                <rect key="frame" x="324" y="533" width="63" height="63"/>
+                                <state key="normal" image="nextButton"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47810444078947362" green="0.51015111019736847" blue="0.58799342105263153" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,6 +80,7 @@
         <image name="A" width="30" height="30"/>
         <image name="B" width="30" height="30"/>
         <image name="C" width="30" height="30"/>
+        <image name="nextButton" width="63" height="63"/>
         <image name="platypus" width="254" height="254"/>
     </resources>
 </document>
