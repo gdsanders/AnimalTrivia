@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var bButton: UIButton!
     @IBOutlet weak var cButton: UIButton!
     
+    @IBOutlet weak var incorrectAImageView: UIImageView!
+    @IBOutlet weak var incorrectBImageView: UIImageView!
+    @IBOutlet weak var correctCImageView: UIImageView!
     
     
 

@@ -86,6 +86,9 @@
                         <outlet property="bLabel" destination="8Ji-Kl-Pc5" id="3ib-xU-MOR"/>
                         <outlet property="cButton" destination="ssV-xn-XMk" id="sDz-Mm-P49"/>
                         <outlet property="cLabel" destination="8Ji-Kl-Pc5" id="V9q-gt-F2Y"/>
+                        <outlet property="correctCImageView" destination="fWE-RV-b9v" id="lns-tF-mK6"/>
+                        <outlet property="incorrectAImageView" destination="r1k-CD-Aev" id="rwq-eR-Lfa"/>
+                        <outlet property="incorrectBImageView" destination="NwP-lk-HxX" id="Tdg-Ii-RA9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
