@@ -25,10 +25,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="platypus" translatesAutoresizingMaskIntoConstraints="NO" id="cJk-gR-dcd">
-                                <rect key="frame" x="20" y="97" width="254" height="254"/>
+                                <rect key="frame" x="43" y="104" width="254" height="254"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A playpus is:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JM3-bY-AdX">
-                                <rect key="frame" x="55" y="48" width="185" height="41"/>
+                                <rect key="frame" x="78" y="45" width="185" height="41"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
                                 <color key="textColor" red="1" green="0.62932762036827494" blue="0.12298766594229971" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -82,7 +82,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-e0-arz" userLabel="NextButton">
-                                <rect key="frame" x="20" y="529" width="301" height="63"/>
+                                <rect key="frame" x="20" y="532" width="301" height="63"/>
                                 <state key="normal" image="nextButton_NEW"/>
                                 <connections>
                                     <segue destination="Tn9-9P-AAU" kind="show" id="TgF-P5-8nJ"/>
@@ -95,6 +95,7 @@
                         <outlet property="aButton" destination="884-Dk-gcH" id="ZfU-XG-RmJ"/>
                         <outlet property="aLabel" destination="sRk-73-jRB" id="LQG-wt-aLT"/>
                         <outlet property="bButton" destination="TY4-VG-TkJ" id="z4H-9W-QDp"/>
+                        <outlet property="bLabel" destination="YRp-87-NT9" id="s7R-Zi-WHp"/>
                         <outlet property="cButton" destination="ssV-xn-XMk" id="sDz-Mm-P49"/>
                         <outlet property="cLabel" destination="8Ji-Kl-Pc5" id="V9q-gt-F2Y"/>
                         <outlet property="correctCImageView" destination="fWE-RV-b9v" id="lns-tF-mK6"/>
