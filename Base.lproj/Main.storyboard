@@ -30,17 +30,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A playpus is:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JM3-bY-AdX">
                                 <rect key="frame" x="55" y="48" width="185" height="41"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="0.62932762036827494" blue="0.12298766594229971" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An Australia hedgehog" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRk-73-jRB" userLabel="A Label">
-                                <rect key="frame" x="69" y="369" width="264" height="35"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There is no such beast!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRp-87-NT9" userLabel="B Label">
-                                <rect key="frame" x="69" y="420" width="262" height="35"/>
+                                <rect key="frame" x="69" y="366" width="264" height="35"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -52,10 +46,15 @@
                                     <action selector="aButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w07-1S-pQZ"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1k-CD-Aev" userLabel="IncorrectAnswerA">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="r1k-CD-Aev" userLabel="IncorrectAnswerA">
                                 <rect key="frame" x="20" y="369" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.40796753209847136" green="1" blue="0.29608223890579843" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There is no such beast!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRp-87-NT9" userLabel="B Label">
+                                <rect key="frame" x="69" y="422" width="262" height="35"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TY4-VG-TkJ" userLabel="B">
                                 <rect key="frame" x="20" y="425" width="30" height="30"/>
                                 <state key="normal" image="B"/>
@@ -63,9 +62,8 @@
                                     <action selector="bButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5B3-aR-x8S"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NwP-lk-HxX" userLabel="IncorrectAnswerB">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="NwP-lk-HxX" userLabel="IncorrectAnswerB">
                                 <rect key="frame" x="20" y="425" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.90196078430000004" green="0.18039215689999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssV-xn-XMk" userLabel="C">
                                 <rect key="frame" x="20" y="481" width="30" height="30"/>
@@ -74,20 +72,22 @@
                                     <action selector="cButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kt1-45-eOf"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWE-RV-b9v" userLabel="CorrectAnswerC">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correctAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="fWE-RV-b9v" userLabel="CorrectAnswerC">
                                 <rect key="frame" x="20" y="481" width="30" height="30"/>
-                                <color key="backgroundColor" red="0.076753797920000005" green="0.19212334549999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-e0-arz" userLabel="NextButton">
-                                <rect key="frame" x="324" y="533" width="63" height="63"/>
-                                <state key="normal" image="nextButton"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A furry mammal which lays eggs, has a duck's beak, and is venomous" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8Ji-Kl-Pc5" userLabel="C Label">
-                                <rect key="frame" x="64" y="435" width="301" height="122"/>
+                                <rect key="frame" x="69" y="468" width="301" height="56"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-e0-arz" userLabel="NextButton">
+                                <rect key="frame" x="20" y="529" width="301" height="63"/>
+                                <state key="normal" image="nextButton_NEW"/>
+                                <connections>
+                                    <segue destination="Tn9-9P-AAU" kind="show" id="TgF-P5-8nJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47810444078947362" green="0.51015111019736847" blue="0.58799342105263153" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -95,7 +95,6 @@
                         <outlet property="aButton" destination="884-Dk-gcH" id="ZfU-XG-RmJ"/>
                         <outlet property="aLabel" destination="sRk-73-jRB" id="LQG-wt-aLT"/>
                         <outlet property="bButton" destination="TY4-VG-TkJ" id="z4H-9W-QDp"/>
-                        <outlet property="bLabel" destination="8Ji-Kl-Pc5" id="3ib-xU-MOR"/>
                         <outlet property="cButton" destination="ssV-xn-XMk" id="sDz-Mm-P49"/>
                         <outlet property="cLabel" destination="8Ji-Kl-Pc5" id="V9q-gt-F2Y"/>
                         <outlet property="correctCImageView" destination="fWE-RV-b9v" id="lns-tF-mK6"/>
@@ -105,14 +104,34 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="387"/>
+            <point key="canvasLocation" x="182" y="392"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6yK-gk-mij">
+            <objects>
+                <viewController id="Tn9-9P-AAU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zn4-Pj-PaH"/>
+                        <viewControllerLayoutGuide type="bottom" id="ss8-HS-dHH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mPn-9b-QY4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40392156862745099" green="0.43137254901960786" blue="0.51764705882352946" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZG-55-qUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="955" y="387"/>
         </scene>
     </scenes>
     <resources>
         <image name="A" width="30" height="30"/>
         <image name="B" width="30" height="30"/>
         <image name="C" width="30" height="30"/>
-        <image name="nextButton" width="63" height="63"/>
+        <image name="correctAnswer" width="30" height="30"/>
+        <image name="incorrectAnswer" width="30" height="30"/>
+        <image name="nextButton_NEW" width="370" height="63"/>
         <image name="platypus" width="254" height="254"/>
     </resources>
 </document>
