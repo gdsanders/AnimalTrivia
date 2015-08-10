@@ -35,15 +35,24 @@ class ViewController: UIViewController {
     }
     
     @IBAction func aButtonPressed(sender: UIButton) {
-    
+        incorrectAImageView.hidden = false
+        aButton.hidden = true
+        bButton.enabled = false
+        cButton.enabled = false
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
-        
+        incorrectBImageView.hidden = false
+        bButton.hidden = true
+        aButton.enabled = false
+        cButton.enabled = false
     }
     
     @IBAction func cButtonPressed(sender: UIButton) {
-    
+        correctCImageView.hidden = false
+        cButton.hidden = true
+        aButton.enabled = false
+        bButton.enabled = false
     }
     
 

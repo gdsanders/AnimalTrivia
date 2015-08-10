@@ -52,8 +52,9 @@
                                     <action selector="aButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w07-1S-pQZ"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1k-CD-Aev" userLabel="IncorrectAnswer">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1k-CD-Aev" userLabel="IncorrectAnswerA">
                                 <rect key="frame" x="20" y="369" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.40796753209847136" green="1" blue="0.29608223890579843" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TY4-VG-TkJ" userLabel="B">
                                 <rect key="frame" x="20" y="425" width="30" height="30"/>
@@ -62,8 +63,9 @@
                                     <action selector="bButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5B3-aR-x8S"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NwP-lk-HxX" userLabel="IncorrectAnswer">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NwP-lk-HxX" userLabel="IncorrectAnswerB">
                                 <rect key="frame" x="20" y="425" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.90196078430000004" green="0.18039215689999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssV-xn-XMk" userLabel="C">
                                 <rect key="frame" x="20" y="481" width="30" height="30"/>
@@ -72,8 +74,9 @@
                                     <action selector="cButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kt1-45-eOf"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWE-RV-b9v" userLabel="CorrectAnswer">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fWE-RV-b9v" userLabel="CorrectAnswerC">
                                 <rect key="frame" x="20" y="481" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.076753797920000005" green="0.19212334549999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RR9-e0-arz" userLabel="NextButton">
                                 <rect key="frame" x="324" y="533" width="63" height="63"/>
