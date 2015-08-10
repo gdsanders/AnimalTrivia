@@ -1,0 +1,3 @@
+# AnimalTrivia
+
+Practice Swift program
