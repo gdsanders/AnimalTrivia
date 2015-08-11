@@ -111,10 +111,10 @@
             </objects>
             <point key="canvasLocation" x="182" y="392"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="6yK-gk-mij">
             <objects>
-                <viewController id="Tn9-9P-AAU" sceneMemberID="viewController">
+                <viewController id="Tn9-9P-AAU" customClass="SecondViewController" customModule="AnimalTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zn4-Pj-PaH"/>
                         <viewControllerLayoutGuide type="bottom" id="ss8-HS-dHH"/>
@@ -135,6 +135,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5m-K8-TaU" userLabel="A">
                                 <rect key="frame" x="20" y="363" width="30" height="30"/>
                                 <state key="normal" image="A"/>
+                                <connections>
+                                    <action selector="aButtonPressed:" destination="Tn9-9P-AAU" eventType="touchUpInside" id="N4E-kN-WAI"/>
+                                </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="91E-w3-9MZ">
                                 <rect key="frame" x="20" y="363" width="30" height="30"/>
@@ -142,13 +145,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaD-HS-Zvs" userLabel="B">
                                 <rect key="frame" x="20" y="417" width="30" height="30"/>
                                 <state key="normal" image="B"/>
+                                <connections>
+                                    <action selector="bButtonPressed:" destination="Tn9-9P-AAU" eventType="touchUpInside" id="1lm-bN-DOM"/>
+                                </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correctAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="JuG-WQ-vSx">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correctAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="JuG-WQ-vSx" userLabel="Correct AnswerB Image View">
                                 <rect key="frame" x="20" y="417" width="30" height="30"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVl-VA-SvP" userLabel="C">
                                 <rect key="frame" x="20" y="473" width="30" height="30"/>
                                 <state key="normal" image="C"/>
+                                <connections>
+                                    <action selector="cButtonPressed:" destination="Tn9-9P-AAU" eventType="touchUpInside" id="GGE-JY-Obg"/>
+                                </connections>
                             </button>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="46D-oV-rsI">
                                 <rect key="frame" x="20" y="473" width="30" height="30"/>
@@ -178,6 +187,17 @@
                         </subviews>
                         <color key="backgroundColor" red="0.40392156862745099" green="0.43137254901960786" blue="0.51764705882352946" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="aButton" destination="z5m-K8-TaU" id="YGi-5e-cYl"/>
+                        <outlet property="aLabel" destination="tyq-PP-IdR" id="wAy-tH-J55"/>
+                        <outlet property="bButton" destination="eaD-HS-Zvs" id="lK7-ra-P1T"/>
+                        <outlet property="bLabel" destination="BO0-UY-k9R" id="1Dx-xv-xjL"/>
+                        <outlet property="cButton" destination="uVl-VA-SvP" id="zjB-MS-NA8"/>
+                        <outlet property="cLabel" destination="MXf-tf-vV7" id="UeS-7s-cHE"/>
+                        <outlet property="correctAnswerAImageView" destination="JuG-WQ-vSx" id="vvp-hc-513"/>
+                        <outlet property="incorrectAImageView" destination="91E-w3-9MZ" id="Nou-th-HUl"/>
+                        <outlet property="incorrectAnswerCImageView" destination="46D-oV-rsI" id="Lcg-Vx-L0n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VZG-55-qUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
