@@ -52,6 +52,12 @@ class SecondViewController: UIViewController {
     
     @IBAction func bButtonPressed(sender: UIButton) {
         
+        bButton.hidden = true
+        correctAnswerBImageView.hidden = false
+        aButton.enabled = false
+        cButton.enabled = false
+        bLabel.textColor = UIColor.greenColor()
+        
     }
     
     
