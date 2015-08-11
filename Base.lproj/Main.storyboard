@@ -89,7 +89,7 @@
                                 <rect key="frame" x="20" y="532" width="301" height="63"/>
                                 <state key="normal" image="nextButton_NEW"/>
                                 <connections>
-                                    <segue destination="Tn9-9P-AAU" kind="show" id="TgF-P5-8nJ"/>
+                                    <segue destination="Tn9-9P-AAU" kind="show" id="3Gh-UB-Mr2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -139,7 +139,7 @@
                                     <action selector="aButtonPressed:" destination="Tn9-9P-AAU" eventType="touchUpInside" id="N4E-kN-WAI"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="91E-w3-9MZ">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectAnswer" translatesAutoresizingMaskIntoConstraints="NO" id="91E-w3-9MZ" userLabel="incorrectAnswerAImageView">
                                 <rect key="frame" x="20" y="363" width="30" height="30"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaD-HS-Zvs" userLabel="B">
@@ -194,8 +194,8 @@
                         <outlet property="bLabel" destination="BO0-UY-k9R" id="1Dx-xv-xjL"/>
                         <outlet property="cButton" destination="uVl-VA-SvP" id="zjB-MS-NA8"/>
                         <outlet property="cLabel" destination="MXf-tf-vV7" id="UeS-7s-cHE"/>
-                        <outlet property="correctAnswerAImageView" destination="JuG-WQ-vSx" id="vvp-hc-513"/>
-                        <outlet property="incorrectAImageView" destination="91E-w3-9MZ" id="Nou-th-HUl"/>
+                        <outlet property="correctAnswerBImageView" destination="JuG-WQ-vSx" id="bm7-8G-bHV"/>
+                        <outlet property="incorrectAImageView" destination="91E-w3-9MZ" id="bpw-sR-ie6"/>
                         <outlet property="incorrectAnswerCImageView" destination="46D-oV-rsI" id="Lcg-Vx-L0n"/>
                     </connections>
                 </viewController>
