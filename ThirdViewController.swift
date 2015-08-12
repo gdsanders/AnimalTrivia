@@ -21,6 +21,8 @@ class ThirdViewController: UIViewController {
     
     @IBOutlet weak var startOverButton: UIButton!
     
+    let myRedColor = UIColor(red: 0.98, green: 0.39, blue: 0.4, alpha: 1.0)
+    
     
 
     override func viewDidLoad() {
@@ -41,6 +43,7 @@ class ThirdViewController: UIViewController {
         let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
         aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
+        aLabel.textColor = myRedColor
         
     }
     
@@ -49,6 +52,7 @@ class ThirdViewController: UIViewController {
         let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
         bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
         disableButtons()
+        bLabel.textColor = myRedColor
         
     }
     
@@ -56,6 +60,7 @@ class ThirdViewController: UIViewController {
         let correctAnswerImage = UIImage(named: "correctAnswer")
         cButton.setImage(correctAnswerImage, forState: UIControlState.Normal)
         disableButtons()
+        cLabel.textColor = UIColor.greenColor()
         
     }
     
