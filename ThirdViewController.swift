@@ -38,15 +38,31 @@ class ThirdViewController: UIViewController {
 
     @IBAction func aButtonPressed(sender: UIButton) {
         
+        let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
+        aButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
+        disableButtons()
+        
     }
     
     
     @IBAction func bButtonPressed(sender: UIButton) {
+        let incorrectAnswerImage = UIImage(named: "incorrectAnswer")
+        bButton.setImage(incorrectAnswerImage, forState: UIControlState.Normal)
+        disableButtons()
         
     }
     
     @IBAction func cButtonPressed(sender: UIButton) {
+        let correctAnswerImage = UIImage(named: "correctAnswer")
+        cButton.setImage(correctAnswerImage, forState: UIControlState.Normal)
+        disableButtons()
         
+    }
+    
+    func  disableButtons() {
+        aButton.enabled = false
+        bButton.enabled = false
+        cButton.enabled = false
     }
     
     
